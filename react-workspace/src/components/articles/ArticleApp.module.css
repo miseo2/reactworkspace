@@ -1,0 +1,26 @@
+.articleListGrid {
+  display: grid;
+  grid-template-columns: 160px minmax(150px, 1fr) minmax(150px, 1fr) 80px 160px;
+  width: 100%;
+}
+
+.writeButton {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.writeButton button {
+  width: 100%;
+}
+
+.inputGroup {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputGroup input {
+  width: 100%;
+  box-sizing: border-box;
+}
